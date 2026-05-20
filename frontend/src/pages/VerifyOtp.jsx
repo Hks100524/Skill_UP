@@ -53,7 +53,7 @@ export default function VerifyOtp() {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://localhost:5000/api/auth/verify-email", {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/verify-email`, {
         email,
         otp: cleanOtp,
       });
@@ -81,7 +81,7 @@ export default function VerifyOtp() {
     try {
       setResending(true);
 
-      const res = await axios.post("http://localhost:5000/api/auth/resend-verify-otp", {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/resend-verify-otp`, {
         email,
       });
 
