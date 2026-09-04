@@ -1,6 +1,7 @@
 # Skill_UP
 
-Skill_UP is a full-stack career preparation platform for B.Tech students. It brings aptitude practice, technical learning, project showcasing, job support, AI assistance, and progress tracking into one application and it will be easy to help the students to learn and grow fast in thier fields
+Skill_UP is a full-stack career preparation platform for B.Tech students. It brings aptitude practice, technical learning, project showcasing, job support, AI assistance, and progress tracking into one application and it will be easy to help the students to learn and grow fast in thier fields . 
+what to make the Learning more usefull . 
 
 The project is split into two independently runnable applications:
 
